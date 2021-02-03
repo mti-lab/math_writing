@@ -123,8 +123,13 @@
     \item \href{https://www.slideshare.net/yokotatsuya/2014-3-13}{名工大横田先生による「テンソル分解の基礎と画像・信号処理への応用」}：行列を一般化した「テンソル」に関する、日本語での包括的な資料です。
 \end{itemize}
 
-また、TeXに関しては、ネット上の資料が古かったり、現代的なベストプラクティスがわからないことが多々あります。
-\href{https://www.overleaf.com/learn/latex/Main_Page}{OverleafのTeX入門ページ}が辞書として参考になります。
+また、TeXに関しては、ネット上の資料が古かったり、現代的なベストプラクティスがわからないことが多々あります。次の資料が参考になります。
+\begin{itemize}
+    \item \href{https://www.overleaf.com/learn/latex/Main_Page}{OverleafのTeX入門ページ}：現代的な記述がまとまっているので、辞書として使えます。
+    \item \href{https://github.com/akira-okumura/MasterThesisTemplate}{修士論文 LaTeX テンプレート｜名古屋大学宇宙地球環境研究所の理学系修士学生用}：名大の奥村先生による、修論生向けのLaTeXテンプレートです。TeXについて知っておくべき基本的で現代的な事項が多く含まれています。
+\end{itemize}
+
+
 
 \subsection{アルファベットが足りなくなるとは}
 本記事ではよく「アルファベットが足りなくなる」とか、「アルファベットを消費しないために」といった
@@ -585,7 +590,7 @@ $x$に対し$a_i$が下付き文字なのか区別がつきません。
     ]{python}
 V = [1.0, 2.0, 4.0, 8.0]
 
-for n in len(V):
+for n in range(len(V)):
     print(V[n])  # (1)
 
 for v in V:
