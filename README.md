@@ -11,7 +11,7 @@
 - [松井勇佑](http://yusukematsui.me/index_jp.html)
 
 ## ビルド方法
-検証環境：Windows 10 + WSL2 + Ubuntu 20.04
+検証環境：Windows 11 + WSL2 + Ubuntu 20.04
 ```console
 $ sudo apt install texlive-full fonts-noto
 $ git clone https://github.com/matsui528/math_writing.git
