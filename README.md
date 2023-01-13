@@ -5,7 +5,7 @@
 本資料は、そんな学生向けに、数式をどう記述すればいいかのガイドラインを示します。
 
 ## 資料本体
-- [pdf](https://github.com/matsui528/math_writing/raw/main/main.pdf)
+- [pdf](https://github.com/mti-lab/math_writing/raw/main/main.pdf)
 
 ## 作者
 - [松井勇佑](http://yusukematsui.me/index_jp.html)
@@ -14,7 +14,7 @@
 検証環境：Windows 11 + WSL2 + Ubuntu 20.04
 ```console
 $ sudo apt install texlive-full fonts-noto
-$ git clone https://github.com/matsui528/math_writing.git
+$ git clone https://github.com/mti-lab/math_writing.git
 $ cd math_writing
 $ make build
 ```
