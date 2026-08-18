@@ -6,6 +6,7 @@
 
 ## 資料本体
 - [pdf](https://github.com/mti-lab/math_writing/raw/main/main.pdf)
+- [本内容を発展させ英語スライドにしたもの（Non-Research Tips for Information Science Researchers 2026, Week 2, "Equations and pseudo-codes"）](https://non-research-tips.github.io/assets/2026/week2.pdf)
 
 ## 作者
 - [松井勇佑](http://yusukematsui.me/index_jp.html)
